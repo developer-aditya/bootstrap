@@ -1,0 +1,135 @@
+body {
+   overflow-x: hidden;
+}
+
+.overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bg-darkest {
+   color: #fff;
+   background-color: #333;
+}
+
+/* //////////////////////////////////////////////////////////// Home Page ////////////////////////////////////////////////////*/
+
+#main-nav .current {
+   border-left: 3px solid #555;
+}
+
+#showcase .img {
+   height: calc(75vh - 47.6px - 2rem);
+}
+
+.img-1 {
+   background: url(../img/image1.jpg) no-repeat center center/cover;
+}
+.img-2 {
+   background: url(../img/image2.jpg) no-repeat center center/cover;
+}
+.img-3 {
+   background: url(../img/image3.jpg) no-repeat center center/cover;
+}
+
+.carousel-caption {
+   height: 50%;
+   top: 24%;
+}
+
+@keyframes rotate {
+   to {
+      transform: rotate(360deg);
+   }
+}
+#what .fas {
+   animation: rotate;
+   animation-duration: 3500ms;
+   animation-iteration-count: infinite;
+}
+
+#start {
+   position: relative;
+   min-height: 30vh;
+   background: url(../img/lights.jpg) no-repeat center center/cover;
+   background-attachment: fixed;
+}
+
+#perform {
+   position: relative;
+   min-height: 30vh;
+   background: url(../img/media.jpg) no-repeat center center/cover;
+   background-attachment: fixed;
+}
+
+#gallery h2 {
+   font-size: 3rem;
+}
+.modal-footer {
+   background-color: #333;
+}
+
+/* ////////////////////////////////////////////////////////// About Page ////////////////////////////////////////////////////*/
+
+#about {
+   position: relative;
+   min-height: 50vh;
+   background: url(../img/image1.jpg) no-repeat center center/cover;
+   background-attachment: fixed;
+}
+#circle-img .rounded-circle {
+   margin-top: -20vh;
+   width: 55vh !important;
+   height: 52vh !important;
+}
+
+/* ////////////////////////////////////////////////////////// Service Page ////////////////////////////////////////////////////*/
+
+#service {
+   position: relative;
+   min-height: 50vh;
+   background: url(../img/image2.jpg) no-repeat center center/cover;
+   background-attachment: fixed;
+}
+
+#plans .row {
+   margin-top: -20vh;
+}
+
+#question a {
+   color: #fff;
+   text-decoration: none;
+}
+
+/* ////////////////////////////////////////////////////////// Blogs Page ////////////////////////////////////////////////////*/
+
+#blog {
+   position: relative;
+   min-height: 50vh;
+   background: url(../img/image1.jpg) no-repeat center center/cover;
+   background-attachment: fixed;
+}
+
+/* ////////////////////////////////////////////////////////// Contact Page ////////////////////////////////////////////////////*/
+
+#contact {
+   position: relative;
+   min-height: 50vh;
+   background: url(../img/image3.jpg) no-repeat center center/cover;
+   background-attachment: fixed;
+}
+#team .rounded-circle {
+   width: 100% !important;
+   max-width: 200px;
+   height: calc(width) !important;
+}
+/* ////////////////////////////////////////////////////////// Footer ///////////////////////////////////////////////////////*/
+#main-footer {
+   border-top: 1px solid #000;
+   font-size: 1.15rem;
+   background-color: #222;
+}
